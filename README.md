@@ -148,6 +148,11 @@ maruti-pharmacy/
   flask run
 ```
 
+**Application runs at**
+```
+  http://127.0.0.1:5000
+```
+
 ## ▶️ How to Create Admin
 ```
   Register a user via /register
@@ -156,11 +161,6 @@ maruti-pharmacy/
   1) sqlite3 instance/maruti.db (run from project root)
   2) UPDATE users SET role='admin' WHERE email='your@email.com';
   
-```
-
-**Application runs at**
-```
-  http://127.0.0.1:5000
 ```
 
 ## 📄 License
